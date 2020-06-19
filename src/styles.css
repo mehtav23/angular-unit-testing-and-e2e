@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+
+html {
+    height: 100%;
+ }
+ body {
+    width:100%;
+ }
+
+ .text-center{
+     text-align: center;
+ }
+ label {
+     font-weight: bold;
+ }

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    width: 60%;
+    margin:auto;
+    flex-direction: column;
+}
+
+
+.login-form {
+    width:50%;
+    margin:10% 30% 0% 30%;
+    border: 1px solid #333;
+    padding: 2%;
+}
+
+.form-group {
+    width:80%;
+    margin:auto;
+    padding:10% 0% 10% 0%;
+}
+
+.login-form label, .login-form input[type=email], .login-form input[type="password"],
+ .login-form button {
+    width:100%;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.is-invalid{
+    color: red !important;
+}
+.text-danger {
+    color: red;
+}
